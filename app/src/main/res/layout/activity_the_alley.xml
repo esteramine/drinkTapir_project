@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/tapir"/>
+        <ImageView
+            android:layout_width="169.5dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/drinktapir"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:layout_marginTop="8dp"
+            android:textSize="45dp"/>
+        <TextView
+            android:id="@+id/storeName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Store"
+            android:textSize="22dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerView2">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>

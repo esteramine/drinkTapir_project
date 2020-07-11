@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/confirmProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:id="@+id/confirmNT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NT$"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@id/confirmPrice"/>
+    <TextView
+        android:id="@+id/confirmPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@id/confirmQuantity"/>
+    <TextView
+        android:id="@+id/confirmQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="15dp"
+        android:layout_margin="15dp"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
